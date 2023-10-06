@@ -1,10 +1,10 @@
 import hydra
-from omegaconf import DictConfig
+from omegaconf import DictConfig, OmegaConf
 
 @hydra.main(config_path="./cfg", config_name="config")
 def main(cfg: DictConfig):
-    while True:
-        print(cfg)
+    print("Hello Hydra!")
+    print(OmegaConf.to_yaml(cfg))
     
 
 if __name__=="__main__":

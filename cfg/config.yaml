@@ -1,4 +1,5 @@
 
 num_test: 10
 
-# hydra:
+defaults:
+  - hydra/job_logging: disabled
