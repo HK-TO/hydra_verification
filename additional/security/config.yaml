@@ -1,0 +1,6 @@
+
+config_name: "security"
+
+defaults:
+  - case: case_1
+  - hydra/job_logging: disabled

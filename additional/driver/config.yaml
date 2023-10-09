@@ -1,0 +1,6 @@
+
+config_name: "driver"
+
+defaults:
+  - extension: txt
+  - hydra/job_logging: disabled

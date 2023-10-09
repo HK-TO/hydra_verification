@@ -1,0 +1,6 @@
+name: case_2
+password: 0x02
+
+parity: True
+stop_bits: 1
+checksum: crc # checksum, crc, none
