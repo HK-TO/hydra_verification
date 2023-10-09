@@ -1,0 +1,6 @@
+name: uart
+address: 0x00000000
+
+pins:
+  tx: PIN_A9
+  rx: PIN_A10

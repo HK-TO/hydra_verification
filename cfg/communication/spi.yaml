@@ -1,0 +1,8 @@
+name: spi
+roll: master # slave
+
+pins:
+  mosi: PIN_A7
+  miso: PIN_A6
+  sck: PIN_A5
+  cs: PIN_A4
